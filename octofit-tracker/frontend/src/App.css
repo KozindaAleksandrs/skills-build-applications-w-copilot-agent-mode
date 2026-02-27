@@ -1,0 +1,124 @@
+
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  min-height: 100vh;
+  color: #2a2e3a;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  pointer-events: none;
+  margin-right: 1rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link, .navbar .nav-link, a {
+  color: #3a7bd5;
+  transition: color 0.2s;
+}
+.App-link:hover, .navbar .nav-link:hover, a:hover {
+  color: #00b894;
+  text-decoration: underline;
+}
+
+/* Bootstrap Table Customization */
+table.table {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(58,123,213,0.07);
+}
+thead.table-light {
+  background: #3a7bd5;
+  color: #fff;
+}
+tbody tr:hover {
+  background: #e3f2fd;
+}
+
+/* Bootstrap Button Customization */
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+  color: #fff;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #3a7bd5;
+  font-weight: 700;
+}
+
+/* Navbar Customization */
+.navbar {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(58,123,213,0.07);
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  color: #fff !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.navbar .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+}
+.navbar .nav-link.active, .navbar .nav-link:focus {
+  color: #00d2ff !important;
+}
+
+/* Card Customization */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(58,123,213,0.07);
+}
+.card-header {
+  background: linear-gradient(90deg, #3a7bd5 0%, #00d2ff 100%);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Favicon and logo spacing */
+.octofit-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 1rem;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
